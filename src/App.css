@@ -4,11 +4,16 @@
   right: 0;
   bottom: 0;
   left: 0;
-  background: url("./eye_small.png");
+  background: url("./assets/eye_small.png");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
   z-index: -1000;
+}
+
+.links__container {
+  max-width: 800px;
+  margin: auto;
 }
 
 .links__container a {
@@ -16,15 +21,20 @@
   justify-content: center;
   background: white;
   padding: 0.75em;
-  margin: 2em;
+  margin: 2em 0.5em;
   color: black;
   font-size: 1.4em;
   font-weight: 400;
-  border-radius: 10px;
   text-decoration: none;
   color: #54457f;
   border: 2px solid magenta;
+  box-shadow: 10px 10px 0 magenta;
   font-family: Silkscreen;
+}
+
+.links__container a:hover {
+  border: 2px solid cyan;
+  box-shadow: 10px 10px 0 cyan;
 }
 
 .toolbar__container {
@@ -32,5 +42,15 @@
   background: white;
   color: #54457f;
   font-family: Silkscreen;
-  border-bottom: 2px solid cyan;
+  border-bottom: 5px solid cyan;
+}
+
+@media (max-width: 900px) {
+  .links__container a {
+    box-shadow: 5px 5px 0 magenta;
+  }
+
+  .links__container a:hover {
+    box-shadow: 5px 5px 0 cyan;
+  }
 }
