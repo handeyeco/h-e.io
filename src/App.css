@@ -1,0 +1,36 @@
+.background {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: url("./eye_small.png");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  z-index: -1000;
+}
+
+.links__container a {
+  display: flex;
+  justify-content: center;
+  background: white;
+  padding: 0.75em;
+  margin: 2em;
+  color: black;
+  font-size: 1.4em;
+  font-weight: 400;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #54457f;
+  border: 2px solid magenta;
+  font-family: Silkscreen;
+}
+
+.toolbar__container {
+  padding: 0.25em 1em;
+  background: white;
+  color: #54457f;
+  font-family: Silkscreen;
+  border-bottom: 2px solid cyan;
+}
