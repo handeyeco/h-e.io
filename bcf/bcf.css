@@ -1,0 +1,53 @@
+html,
+body {
+  margin: 0;
+  background: white;
+  font-family: sans-serif;
+  font-size: 10px;
+  text-align: center;
+}
+
+h1 {
+  margin: 4rem 0;
+  text-transform: uppercase;
+}
+
+h2 {
+  padding: 0 0 1em 0;
+  margin: 0;
+}
+
+.container {
+  font-size: 1.6rem;
+  max-width: 800px;
+  min-height: 100vh;
+  margin: auto;
+  background: white;
+  padding: 1rem 1rem 20rem 1rem;
+}
+
+.link-group {
+  padding: 3em 0;
+  border-top: 3px dotted cyan;
+}
+
+.big-link {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  font-size: 2em;
+  color: white;
+  border: 3px solid magenta;
+  background: magenta;
+  box-shadow: 10px 10px 0 cyan;
+  padding: 2rem 1rem;
+  margin: 2rem 0;
+  border-radius: 10px;
+}
+
+.big-link:hover {
+  color: black;
+  border: 3px dotted cyan;
+  background: white;
+  box-shadow: 10px 10px 0 yellow;
+}
